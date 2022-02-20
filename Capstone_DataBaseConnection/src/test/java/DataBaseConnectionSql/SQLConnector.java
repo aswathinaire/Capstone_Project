@@ -33,7 +33,7 @@ public class SQLConnector {
 	public static String DB_USER = "root";
 
 // Database Password
-public static String DB_PASSWORD = "Rajeswari@123";
+public static String DB_PASSWORD = "root123";
 @BeforeTest
 
 public void setUp() throws Exception {
@@ -68,7 +68,7 @@ public void test() {
 
 try {
 
-String query = "select * from employee where salary = (select MAX(salary) from employee  where salary < (select MAX(salary) from employee))";
+String query = "select * from employee where salary = (SELECT MAX(salary) FROM employee WHERE salary < (SELECT MAX(salary) FROM employee))";
 // Get the contents of userinfo table from DB
 
 ResultSet res = stmt.executeQuery(query);
