@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
         glue = {"Steps"},
         //tags = {"@APISuite"}
         tags = {"@GET"}
-        //tags = {"@Post"}
-        //tags = {"@put"}
+        ///tags = {"@Post"}
+       // tags = {"@put"}
         //tags = {"@Delete"}
        )
 public class  TestRunner{

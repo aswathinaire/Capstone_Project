@@ -6,6 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.corp.qa.testcases.LoginPageTest1">
+        <methods>
+          <include name="validateLoginnnn"/>
+          <include name="SSSetUp"/>
+        </methods>
+      </class> <!-- com.corp.qa.testcases.LoginPageTest1 -->
       <class name="com.corp.qa.testcases.AddNewPageTest2">
         <methods>
           <include name="validateLoginnnn"/>
